@@ -1,0 +1,48 @@
+
+
+.form{
+display: flex;
+width:600px;
+border-radius: 10px;
+background-color: #f1f5f8;
+box-shadow: 1px solid black;
+
+justify-content: end;
+
+}
+.form input{
+  margin-right: 30px;
+}
+.form input,textarea {
+    box-sizing: border-box;
+    background-color: transparent;
+  margin-right: 30px;
+    padding: 0.7rem;
+    border-bottom-right-radius: 15px 3px;
+    border-bottom-left-radius: 3px 15px;
+    border: solid 3px transparent;
+    border-bottom: dashed 3px #fdcb6e;
+    font-family: "Architects Daughter", cursive;
+    font-size: 1rem;
+    color: hsla(260, 2%, 25%, 0.7);
+ 
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 0;
+    border: none;
+    font-family: "Architects Daughter", cursive;
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    background-color: #f1f5f8;
+  }
+  button span {
+    background: #f5ba13;
+    display: block;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 2px solid hsl(198, 1%, 29%);
+    
+  }
